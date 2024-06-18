@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "tu_usuario";
-$password = "tu_contraseña";
-$dbname = "todo_list";
+$username = "root";
+$password = "";
+$dbname = "restaurante";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);
